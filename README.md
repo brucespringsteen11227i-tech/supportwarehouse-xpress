@@ -1,2 +1,1 @@
-# supportwarehouse-xpress
-Official website and shipment tracking platform for SupportWarehouse Xpress, providing domestic and international courier, parcel delivery, freight and logistics services.
+SupportWarehouse Xpress provides domestic and international courier, parcel delivery, freight forwarding, and shipment tracking services. Customers can track parcels using their tracking numbers on our website or contact us via email for assistance.
