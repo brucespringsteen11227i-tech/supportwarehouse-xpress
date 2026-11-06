@@ -4,449 +4,271 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SupportWarehouse Xpress | Global Courier & Logistics</title>
-
-<meta name="description" content="SupportWarehouse Xpress provides domestic and international courier, parcel delivery, freight and logistics services.">
+<title>SupportWarehouse Xpress | Courier & Logistics</title>
 
 <style>
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  color: #172338;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
 }
 
 header {
-  background: #0b1f3a;
-  color: white;
-  padding: 20px;
+    background: #071d3b;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 27px;
 }
 
 nav {
-  max-width: 1100px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.logo {
-  font-size: 21px;
-  font-weight: bold;
+    background: #123e70;
+    padding: 14px;
+    text-align: center;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 8px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .hero {
-  background: linear-gradient(120deg,#07172b,#1264d8);
-  color: white;
-  padding: 85px 20px;
-  text-align: center;
+    background: #0c315d;
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
 }
 
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 15px;
+.hero h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
 }
 
 .hero p {
-  max-width: 650px;
-  margin: auto;
-  font-size: 17px;
+    font-size: 17px;
+    margin-bottom: 25px;
 }
 
-.btn {
-  display: inline-block;
-  background: #ff9f1c;
-  color: #0b1f3a;
-  padding: 13px 25px;
-  margin-top: 22px;
-  border-radius: 6px;
-  font-weight: bold;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
+.button {
+    display: inline-block;
+    background: #f5a623;
+    color: #071d3b;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-  padding: 65px 20px;
+    padding: 45px 20px;
+    text-align: center;
 }
 
-.container {
-  max-width: 1100px;
-  margin: auto;
-}
-
-h2 {
-  color: #0b1f3a;
-  text-align: center;
-  margin-bottom: 25px;
-  font-size: 30px;
-}
-
-.intro {
-  text-align: center;
-  max-width: 750px;
-  margin: auto;
-}
-
-.tracking {
-  background: #f1f5fa;
-  text-align: center;
-}
-
-.tracking-box {
-  background: white;
-  padding: 30px;
-  max-width: 550px;
-  margin: auto;
-  border-radius: 12px;
-  box-shadow: 0 5px 25px #00000012;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 14px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 15px;
+section h2 {
+    color: #071d3b;
+    margin-bottom: 20px;
 }
 
 .services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .card {
-  padding: 25px;
-  background: #f4f7fb;
-  border-radius: 10px;
-  border-bottom: 3px solid #1264d8;
+    background: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 9px;
+    box-shadow: 0 2px 12px #ddd;
 }
 
 .card h3 {
-  color: #1264d8;
-  margin-bottom: 10px;
+    color: #123e70;
+    margin-bottom: 10px;
 }
 
-.contact {
-  background: #f1f5fa;
+.tracking {
+    background: #e7eef7;
 }
 
-.contact-box {
-  max-width: 650px;
-  margin: auto;
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
+input {
+    width: 90%;
+    max-width: 450px;
+    padding: 15px;
+    margin: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
 }
 
-.contact-box p {
-  margin: 12px 0;
+button {
+    background: #123e70;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 footer {
-  background: #07172b;
-  color: white;
-  text-align: center;
-  padding: 25px;
+    background: #071d3b;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
 }
 
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25d366;
-  color: white;
-  padding: 15px 19px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 3px 12px #0003;
+footer a {
+    color: #f5a623;
 }
 
-@media(max-width:600px) {
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  nav {
-    justify-content: center;
-  }
-}
 </style>
 </head>
 
 <body>
 
 <header>
-<nav>
-<div class="logo">🚚 SUPPORTWAREHOUSE XPRESS</div>
-
-<div>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</div>
-</nav>
+<h1>SUPPORTWAREHOUSE XPRESS</h1>
+<p>Your Trusted Courier & Logistics Partner</p>
 </header>
 
-<section class="hero" id="home">
-<div class="container">
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#tracking">Track Shipment</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<h1>Moving Your World Forward</h1>
+<div class="hero" id="home">
+<h2>Delivering Beyond Borders</h2>
 
 <p>
-Your trusted partner for courier, parcel delivery,
-international shipping, freight and logistics solutions.
-We help connect businesses and individuals across borders.
+Reliable domestic and international courier,
+parcel delivery and freight logistics services.
 </p>
 
-<a href="#tracking" class="btn">Track Your Shipment</a>
-
-<a href="#contact" class="btn">Book a Delivery</a>
-
+<a href="#tracking" class="button">Track Your Shipment</a>
 </div>
-</section>
-
-<section id="tracking" class="tracking">
-<div class="container">
-
-<h2>Track Your Shipment</h2>
-
-<div class="tracking-box">
-
-<p>Enter your shipment tracking number below.</p>
-
-<form id="trackForm">
-
-<input
-type="text"
-id="trackingNumber"
-placeholder="Enter tracking number"
-required
->
-
-<button class="btn" type="submit">
-Track Shipment
-</button>
-
-</form>
-
-<p id="trackingResult"></p>
-
-</div>
-</div>
-</section>
 
 <section id="services">
-<div class="container">
-
 <h2>Our Services</h2>
 
 <div class="services">
 
 <div class="card">
-<h3>📦 Parcel Delivery</h3>
-<p>Reliable parcel collection and delivery solutions.</p>
+<h3>Domestic Delivery</h3>
+<p>Parcel collection and delivery services within your country.</p>
 </div>
 
 <div class="card">
-<h3>✈️ International Shipping</h3>
-<p>International shipping assistance for destinations worldwide, subject to route availability.</p>
+<h3>International Shipping</h3>
+<p>International parcel transportation to supported destinations worldwide.</p>
 </div>
 
 <div class="card">
-<h3>🚚 Freight & Cargo</h3>
-<p>Freight and cargo logistics solutions for businesses and individuals.</p>
+<h3>Freight Forwarding</h3>
+<p>Logistics coordination and freight transportation solutions.</p>
 </div>
 
 <div class="card">
-<h3>📄 Document Delivery</h3>
-<p>Careful handling and transportation of important documents.</p>
+<h3>Parcel Management</h3>
+<p>Shipment enquiries and delivery assistance for customers.</p>
 </div>
 
-<div class="card">
-<h3>⚡ Express Delivery</h3>
-<p>Time-conscious delivery arrangements for urgent shipments.</p>
-</div>
-
-<div class="card">
-<h3>🏠 Door-to-Door Delivery</h3>
-<p>Convenient pickup and delivery arrangements.</p>
-</div>
-
-</div>
 </div>
 </section>
 
-<section id="about">
-<div class="container">
+<section class="tracking" id="tracking">
 
-<h2>About SupportWarehouse Xpress</h2>
+<h2>Track Your Shipment</h2>
 
-<div class="intro">
+<p>Enter your tracking number to request an update on your shipment.</p>
+
+<form id="trackingForm">
+
+<input
+type="text"
+id="trackingNumber"
+placeholder="Enter your tracking number"
+required>
+
+<br>
+
+<button type="submit">Submit Tracking Enquiry</button>
+
+</form>
+
+<p id="trackingMessage"></p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact SupportWarehouse Xpress</h2>
+
+<p>Need assistance with shipping, delivery or tracking?</p>
+
+<p>Email us for enquiries and customer support.</p>
 
 <p>
-SupportWarehouse Xpress is a courier and logistics
-service brand focused on connecting people and
-businesses through dependable delivery solutions.
-
-Our goal is to make domestic and international
-shipping simpler through customer-focused service,
-clear communication and careful package handling.
-
-We are committed to building a trusted logistics
-network serving customers across the world.
-</p>
-
-</div>
-</div>
-</section>
-
-<section class="tracking">
-<div class="container">
-
-<h2>How It Works</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>1. Book</h3>
-<p>Contact us with your pickup and destination details.</p>
-</div>
-
-<div class="card">
-<h3>2. Ship</h3>
-<p>Confirm your delivery arrangements and shipment details.</p>
-</div>
-
-<div class="card">
-<h3>3. Track</h3>
-<p>Use your assigned tracking reference to request shipment updates.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-<section id="contact" class="contact">
-<div class="container">
-
-<h2>Contact Our Team</h2>
-
-<div class="contact-box">
-
-<p><strong>Company:</strong> SupportWarehouse Xpress</p>
-
-<p>
-<strong>Email:</strong>
 <a href="mailto:warehousexpresss@gmail.com">
 warehousexpresss@gmail.com
 </a>
 </p>
 
-<p>
-<strong>Phone:</strong>
-<a href="tel:+16513299959">+1 651 329-9959</a>
-</p>
-
-<p><strong>Service Coverage:</strong> Worldwide enquiries</p>
-
-<hr style="margin:20px 0">
-
-<h3>Send a Delivery Enquiry</h3>
-
-<form id="contactForm">
-
-<input id="name" placeholder="Your full name" required>
-
-<input id="email" type="email" placeholder="Your email address" required>
-
-<input id="subject" placeholder="Subject" required>
-
-<textarea id="message" rows="5" placeholder="Your message" required></textarea>
-
-<button class="btn" type="submit">Send Enquiry</button>
-
-</form>
-
-</div>
-</div>
 </section>
 
 <footer>
 
-<p>© <span id="year"></span> SupportWarehouse Xpress.</p>
+<h3>SUPPORTWAREHOUSE XPRESS</h3>
 
-<p>Courier | International Shipping | Freight | Logistics</p>
+<p>Domestic & International Courier Services</p>
+
+<p>© 2026 SupportWarehouse Xpress. All Rights Reserved.</p>
 
 </footer>
 
-<a class="whatsapp"
-href="https://wa.me/16513299959"
-target="_blank">
-WhatsApp Us
-</a>
-
 <script>
 
-document.getElementById("year").textContent =
-new Date().getFullYear();
+document.getElementById("trackingForm")
+.addEventListener("submit", function(event) {
 
-document.getElementById("trackForm").addEventListener("submit",function(e){
+event.preventDefault();
 
-e.preventDefault();
+const number = document
+.getElementById("trackingNumber")
+.value.trim();
 
-let tracking =
-document.getElementById("trackingNumber").value.trim();
+if (!number) return;
 
-let message =
-"Hello SupportWarehouse Xpress. I would like an update on my shipment. My tracking number is: " + tracking;
-
-window.open(
-"https://wa.me/16513299959?text=" +
-encodeURIComponent(message),
-"_blank"
+const subject = encodeURIComponent(
+"Shipment Tracking Enquiry: " + number
 );
 
-document.getElementById("trackingResult").textContent =
-"Your tracking enquiry is being prepared.";
+const body = encodeURIComponent(
+"Hello SupportWarehouse Xpress,\n\n" +
+"Please provide an update on my shipment.\n" +
+"Tracking Number: " + number
+);
 
-});
-
-document.getElementById("contactForm").addEventListener("submit",function(e){
-
-e.preventDefault();
-
-let name = document.getElementById("name").value;
-let email = document.getElementById("email").value;
-let subject = document.getElementById("subject").value;
-let message = document.getElementById("message").value;
-
-let body =
-"Name: " + name +
-"\nEmail: " + email +
-"\nMessage: " + message;
+document.getElementById("trackingMessage").textContent =
+"Opening your email application to send your tracking enquiry.";
 
 window.location.href =
 "mailto:warehousexpresss@gmail.com?subject=" +
-encodeURIComponent(subject) +
-"&body=" + encodeURIComponent(body);
+subject + "&body=" + body;
 
 });
 
